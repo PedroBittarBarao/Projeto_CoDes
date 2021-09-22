@@ -31,3 +31,7 @@ h2 {
     border: 0.05rem solid gray;
     width: 1.4rem;
 }
+
+img {
+    margin: 0.5rem;
+}
