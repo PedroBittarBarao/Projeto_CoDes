@@ -44,7 +44,20 @@ li {
     font-size: large;
 }
 
+h2 {
+    font-size: x-large;
+    margin: 0.8rem;
+}
+
+ul {
+    margin: 0.4rem;
+}
+
+.h1-borda {
+    border: 0.1rem solid black;
+}
+
 footer {
-    display: flex;
-    justify-content: space-around;
+    position: fixed;
+    bottom: 0;
 }
