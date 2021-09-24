@@ -24,6 +24,7 @@ h2 {
     font-size: xx-large;
     padding: 0.2rem;
     margin: 0.2rem;
+}
 
 .hora {
     font-size: x-large;
@@ -34,6 +35,7 @@ h2 {
 
 img {
     margin: 0.5rem;
+    width: 50px;
 }
 
 body{
@@ -44,7 +46,7 @@ li {
     font-size: large;
 }
 
-h2 {
+p {
     font-size: x-large;
     margin: 0.8rem;
 }
@@ -62,6 +64,10 @@ ul {
 footer {
     display: flex;
     justify-content: space-around;
+    position: fixed;
+    bottom: 1%;
+    left: 1%;
+    right: 1%;
 }
 
 h3 {
