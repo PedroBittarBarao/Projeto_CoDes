@@ -48,3 +48,17 @@ h2 {
     font-size: x-large;
     margin: 0.8rem;
 }
+
+ul {
+    margin: 0.4rem;
+}
+
+.h1-borda {
+    border: 0.1rem solid black;
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    justify-content: space-between;
+}
