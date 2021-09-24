@@ -43,3 +43,8 @@ body{
 li {
     font-size: large;
 }
+
+h2 {
+    font-size: x-large;
+    margin: 0.8rem;
+}
