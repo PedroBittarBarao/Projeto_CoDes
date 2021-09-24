@@ -43,3 +43,8 @@ body{
 li {
     font-size: large;
 }
+
+footer {
+    display: flex;
+    justify-content: space-around;
+}
