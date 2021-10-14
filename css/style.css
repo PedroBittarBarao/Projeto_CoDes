@@ -7,6 +7,17 @@
     flex-direction: row;
 }
 
+.linha_z {
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+}
+
+.barra{
+    padding: 1.5rem 0;
+    border-left: 0.1rem solid gray;
+}
+
 .linha_full {
     margin: 0 1rem;
     display: flex;
@@ -62,7 +73,11 @@ li {
 
 p {
     font-size: x-large;
-    margin: 0.8rem;
+    margin: 0.5rem;
+}
+
+p.sm, a{
+    font-size: larger;
 }
 
 
@@ -88,4 +103,13 @@ footer {
 
 h3 {
     margin: 0.6rem;
+}
+
+.calendario {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    padding: 0.5rem;
+    margin: 1rem 0rem;
+    border: 0.1rem solid gray;
+    border-style: solid none;
 }
