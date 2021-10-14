@@ -7,8 +7,15 @@
     flex-direction: row;
 }
 
+.linha_full {
+    margin: 0 1rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
 h1 {
-    font-size: xxx-large;
+    font-size: 20vw;
     padding: 0.2rem;
     margin: 0.3rem;
 }
@@ -26,10 +33,11 @@ h2 {
 }
 
 .hora {
-    font-size: x-large;
-    padding: 0.4rem;
+    font-size: xx-large;
+    margin: 0;
+    padding: 1.2rem 0;
     border: 0.05rem solid gray;
-    width: 1.4rem;
+    width: 3rem;
 }
 
 img {
@@ -42,7 +50,14 @@ body{
 }
 
 li {
-    font-size: large;
+    display: flex;
+    flex-direction: row;
+    font-size: xx-large;
+    border: 0.1rem gray;
+    border-style: solid none;
+    padding: 0.8rem;
+    justify-content: space-between;
+    align-items: center;
 }
 
 p {
@@ -50,10 +65,9 @@ p {
     margin: 0.8rem;
 }
 
+
 ul {
-    font-size: xx-large;
-    padding: 0.2rem;
-    margin: 0.2rem;
+    margin: 2rem 1.5rem;
 }
 
 .h1-borda {
@@ -64,9 +78,12 @@ footer {
     display: flex;
     justify-content: space-around;
     position: fixed;
-    bottom: 1%;
-    left: 1%;
-    right: 1%;
+    padding: 1rem 0.1rem 0.1rem 0.1rem;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    border-top: 0.2rem solid gray;
+    background-color: rgb(255, 255, 255);
 }
 
 h3 {
