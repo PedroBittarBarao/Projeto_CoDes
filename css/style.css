@@ -25,6 +25,15 @@
     justify-content: center;
 }
 
+.linha_full2 {
+    margin: 0 1rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: baseline;
+}
+
+
 .linha_full_marg {
     margin: 01.5rem 1rem;
     display: flex;
@@ -50,6 +59,10 @@ h2 {
     margin: 0.2rem;
 }
 
+h2.pl {
+    font-size: xxx-large;
+}
+
 .hora {
     font-size: xx-large;
     margin: 0;
@@ -61,6 +74,10 @@ h2 {
 img {
     margin: 0.5rem;
     width: 50px;
+}
+
+img.m {
+    width: auto;
 }
 
 body{
@@ -119,4 +136,35 @@ h3 {
     margin: 1rem 0rem;
     border: 0.1rem solid gray;
     border-style: solid none;
+}
+
+figure {
+    margin: 2rem;
+    justify-content: center;
+    width: 100%;
+}
+
+section {
+    width: 45%;
+    padding: 0.4rem;
+    margin: 1rem 0.1rem 0.3rem;
+}
+
+section.b {
+    border-right: 0.1rem solid gray;
+}
+
+li.nm {
+    margin: 1rem 0.1rem;
+    padding: 0;
+    font-size: large;
+    border: none;
+}
+
+ul.nm {
+    margin: 0.5rem 0.2rem;
+}
+
+header.tm {
+    margin-top: 2rem;
 }
