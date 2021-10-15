@@ -25,6 +25,13 @@
     justify-content: center;
 }
 
+.linha_full_marg {
+    margin: 01.5rem 1rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
 h1 {
     font-size: 20vw;
     padding: 0.2rem;
