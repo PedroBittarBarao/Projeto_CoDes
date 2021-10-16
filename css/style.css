@@ -15,7 +15,7 @@
 
 .barra{
     padding: 1.5rem 0;
-    border-left: 0.1rem solid gray;
+    border-left: 0.1rem solid hsl(242, 80%, 71%);
 }
 
 .linha_full {
@@ -67,7 +67,7 @@ h2.pl {
     font-size: xx-large;
     margin: 0;
     padding: 1.2rem 0;
-    border: 0.05rem solid gray;
+    border: 0.05rem solid hsl(242, 80%, 71%);
     width: 3rem;
 }
 
@@ -89,7 +89,7 @@ li {
     display: flex;
     flex-direction: row;
     font-size: xx-large;
-    border: 0.1rem gray;
+    border: 0.1rem hsl(242, 80%, 71%);
     border-style: solid none;
     padding: 0.8rem;
     justify-content: space-between;
@@ -111,7 +111,7 @@ ul {
 }
 
 .h1-borda {
-    border: 0.1rem solid black;
+    border: 0.1rem solid hsl(242, 80%, 71%);
 }
 
 footer {
@@ -122,8 +122,8 @@ footer {
     bottom: 0;
     left: 0;
     right: 0;
-    border-top: 0.2rem solid gray;
-    background-color: rgb(255, 255, 255);
+    border-top: 0.2rem solid hsl(242, 80%, 71%);
+    background-color: hsl(178, 5%, 100%);
 }
 
 h3 {
@@ -135,7 +135,7 @@ h3 {
     grid-template-columns: repeat(7, 1fr);
     padding: 0.5rem;
     margin: 1rem 0rem;
-    border: 0.1rem solid gray;
+    border: 0.1rem solid hsl(242, 80%, 71%);
     border-style: solid none;
 }
 
@@ -152,7 +152,7 @@ section {
 }
 
 section.b {
-    border-right: 0.1rem solid gray;
+    border-right: 0.1rem solid hsl(242, 80%, 71%);
 }
 
 li.nm {
