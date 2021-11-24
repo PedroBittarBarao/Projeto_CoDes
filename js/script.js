@@ -1,4 +1,6 @@
 document.addEventListener('DOMContentLoaded', function() {
+    data = document.querySelector('#data')
+
     function dataAtualFormatada(){
         var data = new Date(),
             dia  = data.getDate().toString(),
