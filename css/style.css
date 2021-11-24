@@ -187,3 +187,8 @@ header.tm {
 main.mg {
     margin: 1rem;
 }
+
+button{
+    padding: 1%;
+    font-size: medium;
+}
