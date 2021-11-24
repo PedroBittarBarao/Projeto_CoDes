@@ -3,15 +3,12 @@ document.addEventListener('DOMContentLoaded', function() {
     
     hoje = document.querySelector('#data')
 
-    1
     var today = new Date();
+
     var date = today.getFullYear()+'-'+(today.getMonth()+1)+'-'+today.getDate();
-    
-    
 
     console.log(date)
-
-    hoje.innerHTML = date
     
+    hoje.innerHTML = date
     
 })
