@@ -1,4 +1,6 @@
 document.addEventListener('DOMContentLoaded', function() {
+    
+    
     hoje = document.querySelector('#data')
 
     var today = new Date();
