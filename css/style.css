@@ -192,3 +192,11 @@ button{
     padding: 1%;
     font-size: medium;
 }
+
+h2.red {
+    color: rgb(233, 36, 36);
+}
+
+h2.green {
+    color: rgb(3, 187, 3);
+}
