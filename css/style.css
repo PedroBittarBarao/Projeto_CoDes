@@ -81,6 +81,24 @@ h2.spacing {
     width: 3rem;
 }
 
+.hora2 {
+    font-size: xx-large;
+    margin: 0;
+    padding: 1.2rem 0;
+    border: 0.05rem solid hsl(242, 80%, 71%);
+    width: 3rem;
+    background-color: rgb(253, 251, 120);
+}
+
+.hora3 {
+    font-size: xx-large;
+    margin: 0;
+    padding: 1.2rem 0;
+    border: 0.05rem solid hsl(242, 80%, 71%);
+    width: 3rem;
+    background-color: rgb(198, 255, 151);
+}
+
 img {
     margin: 0.5rem;
     width: 50px;
