@@ -5,7 +5,7 @@
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap" rel="stylesheet">
-        <script src="js/script.js"></script> 
+        <script src="js/pesquisar.js"></script> 
         
         <title>
            pesquisa de nome
@@ -25,13 +25,21 @@
         <main>
             <br>
             <div class="linha2">
-                <input type="text" placeholder="Digite sua mensagem">
-                <button onclick="window.location.href='nome_digitado.html';">
-                    Buscar
-                </button>
-                
-                <br>
+                <input type="text" placeholder="Digite sua mensagem" id="input" onkeyup="funcao()">
             </div>
+
+            <ul id="lista">
+                <li><a href="pessoa_1.html">Ana Paula Gomez</a></li>
+                <li><a href="pessoa_1.html">Caio Ribeiro</a></li>
+                <li><a href="pessoa_1.html">Deyverson</a></li>
+                <li><a href="pessoa_1.html">Fernando Silva</a></li>
+                <li><a href="pessoa_1.html">Guilherme</a></li>
+                <li><a href="pessoa_1.html">Jair Messias</a></li>
+                <li><a href="pessoa_1.html">Laura Oliveira</a></li>
+                <li><a href="pessoa_1.html">Maria Clara</a></li>
+                <li><a href="pessoa_1.html">Pedro Sobrenome</a></li>
+                <li><a href="pessoa_1.html">Rita</a></li>
+              </ul>
 
         </main>
         <footer>
