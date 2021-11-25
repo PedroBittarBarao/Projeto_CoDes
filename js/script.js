@@ -15,7 +15,10 @@ document.addEventListener('DOMContentLoaded', function() {
     hoje.innerHTML = date;
     
     hoje.addEventListener('click', function(event){
-        window.location="/tela_mes.html";
+        loc = window.location.pathname;
+        dir = loc.substring(0, loc.lastIndexOf('/'));
+        console.log(dir)
+        window.location= dir + "/dia24.html";
     })
 
 })
