@@ -129,6 +129,10 @@ p {
     margin: 0.5rem;
 }
 
+p.highlight {
+    background-color: rgb(255, 255, 100);
+}
+
 p.spacing {
     margin: 1.5rem 0.5rem;
 }
