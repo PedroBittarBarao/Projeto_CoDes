@@ -1,6 +1,6 @@
 document.addEventListener('DOMContentLoaded', function() {
-    
-    hoje = document.querySelector('#data')
+
+    meshtml = document.querySelector('#mes')
 
     var today = new Date();
     var dia = today.getDate();
@@ -10,12 +10,7 @@ document.addEventListener('DOMContentLoaded', function() {
         1: 'Janeiro', 2: 'Fevereiro', 3: 'Março', 4: 'Abril', 5: 'Maio', 6: 'Junho', 7: 'Julho', 8: 'Agosto', 9: 'Setembro', 10: 'Outubro', 11: 'Novembro', 12: 'Dezembro'
     }
     mes = dicimes[nmes];
-    date = dia + ' ' + mes;
     
-    hoje.innerHTML = date;
+    meshtml.innerHTML = mes;
     
-    hoje.addEventListener('click', function(event){
-        window.location="/tela_mes.html";
-    })
-
 })
