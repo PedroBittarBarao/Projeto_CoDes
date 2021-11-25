@@ -222,3 +222,7 @@ h2.red {
 h2.green {
     color: rgb(3, 187, 3);
 }
+
+input {
+    border-style: none;
+}
