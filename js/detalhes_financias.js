@@ -24,8 +24,10 @@ document.addEventListener('DOMContentLoaded', function() {
             p = document.createElement('p')
             p.className = 'pendente'
             p.innerHTML = 'pendente'
-            main = document.querySelector('header')
-            main.prepend(p)
+            header = document.querySelector('header')
+            linha = header.querySelector('.linha')
+            a = linha.querySelectorAll('a')
+            a[1].prepend(p)
         }
     }
 
