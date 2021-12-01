@@ -253,6 +253,7 @@ input {
     padding: 0.12rem 0.20rem 0.12rem 0.40rem;
     border: 1px solid #ddd;
     margin-bottom: 12px;
+    height: 3rem;
 }
 
 #lista {
@@ -265,3 +266,14 @@ input {
     background-color: #eee;
 }
 
+a{
+    text-decoration: none;
+}
+
+.adicionar {
+    margin-top: 3%;
+}
+
+.seta{
+    width: 2rem;
+}
