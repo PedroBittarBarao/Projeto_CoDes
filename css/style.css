@@ -19,6 +19,10 @@
     align-items: baseline;
 }
 
+#data{
+    padding-top: 1rem;
+}
+
 .barra{
     padding: 1.5rem 0;
     border-left: 0.1rem solid hsl(242, 80%, 71%);
@@ -72,17 +76,16 @@ h2.pl {
 h2.titulo {
     display: flex;
     flex-direction: row;
-    border: 0.1rem hsl(242, 80%, 71%);
     font-size: xxx-large;
-    border-style: solid none;
-    border-top: none;
     padding: 0.8rem;
     justify-content: space-between;
     align-items: center;
 }
 
 h2.spacing {
-    margin: 1.4rem 0.6rem;
+    margin: 1rem 0.6rem;
+    padding-top: 0.8rem;
+    border-top: 0.15rem solid hsl(242, 80%, 71%);
 }
 
 .hora {
@@ -129,7 +132,7 @@ li {
     display: flex;
     flex-direction: row;
     font-size: xx-large;
-    border: 0.1rem hsl(242, 80%, 71%);
+    border: 0.15rem hsl(242, 80%, 71%);
     border-style: solid none;
     border-top: none;
     padding: 0.8rem;
@@ -154,7 +157,9 @@ p.highlight {
 }
 
 p.spacing {
-    margin: 1.5rem 0.5rem;
+    margin: 1.2rem 0.5rem;
+    padding-top: 0.8rem;
+    border-top: 0.15rem solid hsl(242, 80%, 71%);
 }
 
 p.sm, a{
