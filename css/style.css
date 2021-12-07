@@ -89,26 +89,27 @@ h2.spacing {
 }
 
 .hora {
-    font-size: xx-large;
+    font-size: 1.4rem;
     margin: 0;
-    padding: 1.2rem 0;
+    padding: 1.2rem 0 1.2rem 0.4rem;
     border: 0.05rem solid hsl(242, 80%, 71%);
     width: 3rem;
+    
 }
 
 .hora2 {
-    font-size: xx-large;
+    font-size: 1.4rem;
     margin: 0;
-    padding: 1.2rem 0;
+    padding: 1.2rem 0 1.2rem 0.4rem;
     border: 0.05rem solid hsl(242, 80%, 71%);
     width: 3rem;
     background-color: rgb(255, 234, 115);
 }
 
 .hora3 {
-    font-size: xx-large;
+    font-size: 1.4rem;
     margin: 0;
-    padding: 1.2rem 0;
+    padding: 1.2rem 0 1.2rem 0.4rem;
     border: 0.05rem solid hsl(242, 80%, 71%);
     width: 3rem;
     background-color: rgb(255, 161, 161);
@@ -132,7 +133,7 @@ body{
 li {
     display: flex;
     flex-direction: row;
-    font-size: xx-large;
+    font-size: 1.4rem;
     border: 0.15rem hsl(242, 80%, 71%);
     border-style: solid none;
     border-top: none;
@@ -235,9 +236,7 @@ ul.nm {
     margin: 0.5rem 0.2rem;
 }
 
-header.tm {
-    margin-top: 2rem;
-}
+
 
 main.mg {
     margin: 1rem;
@@ -258,6 +257,7 @@ h2.green {
 
 input {
     border-style: none;
+    max-width: 10rem;
 }
 
 #input {
