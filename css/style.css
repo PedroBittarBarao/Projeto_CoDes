@@ -99,7 +99,7 @@ h2.spacing {
     padding: 1.2rem 0;
     border: 0.05rem solid hsl(242, 80%, 71%);
     width: 3rem;
-    background-color: rgb(253, 251, 120);
+    background-color: rgb(255, 234, 115);
 }
 
 .hora3 {
@@ -108,7 +108,7 @@ h2.spacing {
     padding: 1.2rem 0;
     border: 0.05rem solid hsl(242, 80%, 71%);
     width: 3rem;
-    background-color: rgb(198, 255, 151);
+    background-color: rgb(255, 161, 161);
 }
 
 img {
