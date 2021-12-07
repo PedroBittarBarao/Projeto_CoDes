@@ -1,5 +1,13 @@
 document.addEventListener('DOMContentLoaded', function() {
     
+    function pendente() {
+        p = document.createElement('p')
+        p.className = 'pendente'
+        p.innerHTML = 'pendente'
+        main = document.querySelector('main')
+        main.prepend(p)
+    }
+
     data = document.querySelector('#data').innerHTML
 
     var today = new Date();
@@ -11,23 +19,20 @@ document.addEventListener('DOMContentLoaded', function() {
 
     diapag = parseInt(ld[0])
     mespag = parseInt(ld[1])
+    console.log('diapag')
     console.log(diapag)
+    console.log('mespag')
     console.log(mespag)
 
     console.log(dia)
     console.log(nmes)
 
-    if(mespag <= nmes) {
-        console.log('if 1')
-        if(diapag < dia) {
-            console.log('if 2')
-            p = document.createElement('p')
-            p.className = 'pendente'
-            p.innerHTML = 'pendente'
-            header = document.querySelector('header')
-            linha = header.querySelector('.linha')
-            a = linha.querySelectorAll('a')
-            a[1].prepend(p)
+    if(mespag < nmes) {
+        pendente()
+    }
+    else if(mespag == nmes){
+        if(diapag < dia){
+            pendente()
         }
     }
 
