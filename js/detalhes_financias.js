@@ -8,12 +8,21 @@ document.addEventListener('DOMContentLoaded', function() {
         main.prepend(p)
     }
 
+    function pago() {
+        pago = document.createElement('p')  
+        pago.className = 'pago'
+        pago.innerHTML = 'pago' 
+        main = document.querySelector('main')
+        main.prepend(pago)
+    }
+
     data = document.querySelector('#data').innerHTML
 
     var today = new Date();
     var dia = today.getDate();
     var nmes = today.getMonth()+1;
     
+
     ld = data.split('/')
     console.log(ld)
 
@@ -27,13 +36,11 @@ document.addEventListener('DOMContentLoaded', function() {
     console.log(dia)
     console.log(nmes)
 
-    if(mespag < nmes) {
+    if(diapag < dia) {
         pendente()
-    }
-    else if(mespag == nmes){
-        if(diapag < dia){
-            pendente()
-        }
+    }else if(diapag > dia){
+        pago()
+        
     }
 
 
