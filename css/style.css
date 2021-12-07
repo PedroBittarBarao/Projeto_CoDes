@@ -113,11 +113,12 @@ h2.spacing {
 
 img {
     margin: 0.5rem;
-    width: 50px;
+    width: 3rem;
 }
 
 img.m {
     width: auto;
+    max-width: 19rem;
 }
 
 body{
@@ -278,3 +279,4 @@ a{
 .seta{
     width: 2rem;
 }
+
