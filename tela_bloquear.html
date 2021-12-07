@@ -11,6 +11,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/style.css">
+    <script src="js/bloquear.js"></script>
     <title>bloquear</title>
 </head>
 <body>
@@ -44,25 +45,25 @@
         
 
         <div class="linha2">
-        
-                    <select style="height:3rem ;font-size: larger;">
+
+                    <select id="drop" style="height:3rem ;font-size: larger;">
                       <option value="0">Selecione Horário:</option>
-                      <option value="1">7h-8h</option>
-                      <option value="2">8h-9h</option>
-                      <option value="3">9h-10h</option>
-                      <option value="4">10h-11h</option>
-                      <option value="5">11h-12h</option>
-                      <option value="6">12h-13h</option>
-                      <option value="7">13h-14h</option>
-                      <option value="8">14h-15h</option>
-                      <option value="9">15h-16h</option>
-                      <option value="10">16h-17h</option>
-                      <option value="11">17h-18h</option>
-                      <option value="12">18h-19h</option>
-                      <option value="13">19h-20h</option>
-                      <option value="14">20h-21h</option>
+                      <option value="1">7h</option>
+                      <option value="2">8h</option>
+                      <option value="3">9h</option>
+                      <option value="4">10h</option>
+                      <option value="5">11h</option>
+                      <option value="6">12h</option>
+                      <option value="7">13h</option>
+                      <option value="8">14h</option>
+                      <option value="9">15h</option>
+                      <option value="10">16h</option>
+                      <option value="11">17h</option>
+                      <option value="12">18h</option>
+                      <option value="13">19h</option>
+                      <option value="14">20h</option>
                     </select>
-                   <h2>:00</h2></div>
+                   </div>
                 </div>
             </div>
         </div>
@@ -71,11 +72,11 @@
             Cancelar
         </button>
         
-        <button onclick="window.location.href='dia24.html';">
+        <button id="block">
             Bloquear
         </button>
 
-        <button onclick="window.location.href='dia24.html';">
+        <button id="clear">
             Desbloquear
         </button>
         
